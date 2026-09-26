@@ -1,0 +1,6 @@
+   git checkout dev    # work here
+   git push            # auto deploys to dev site only
+   
+   npm run promote dev staging   # dev -> staging, test with friend on staging link
+   
+   npm run promote staging main  # staging -> live, live site updates
